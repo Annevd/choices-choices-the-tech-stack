@@ -1,0 +1,17 @@
+---
+import '../styles/global.css';
+import Menu from '../components/organisms/Menu.astro'
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/BiebInBloei-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Bieb in Bloei</title>
+  </head>
+  <body>
+    <Menu />
+    <slot /> <!-- Content of each page will go here -->
+  </body>
+</html>

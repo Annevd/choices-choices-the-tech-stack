@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// import { gql } from 'graphql-request';
+// import { hygraph } from '../lib/utils/hygraph.js'; // Adjust path as necessary
+
+// // Fetch data in frontmatter
+// const query = gql`
+//   query Homepage {
+//     herosSlider {
+//       sliderPicture {
+//         url
+//       }
+//       sliderPictureAltText
+//     }
+//     cardSlides {
+//       titleCard
+//       paragraphCard
+//       paragraphCard2
+//       imageCard {
+//         url
+//       }
+//       imageCardAltText
+//     }
+//     agendas {
+//       cardImage {
+//         url
+//       }
+//       date
+//       event
+//       price
+//       address
+//       buttonText
+//     }
+//     campusInfos {
+//       title
+//       title2
+//       paragraph
+//       paragraph2
+//     }
+//     partnersInfos {
+//       title
+//       paragraph
+//       paragraph2
+//     }
+//   }
+// `;
+
+// const data = await hygraph.request(query);
+// const { herosSlider, cardSlides, agendas, campusInfos, partnersInfos } = data;
+---
+
+<BaseLayout>
+  <h1>homepage</h1>
+</BaseLayout>
