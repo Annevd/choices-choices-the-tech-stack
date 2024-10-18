@@ -6,7 +6,50 @@ import HeroHeaders from '../components/molecules/HeroHeaders.astro';
 import IntroHeaders from '../components/atoms/IntroHeaders.astro';
 import OverViewPages from '../components/molecules/OverViewPages.astro';
 
-// Fetch data in frontmatter
+
+// Define TypeScript types for the data structure
+interface HeroHeader {
+  heading1: string;
+  description: string;
+  image: {
+    url: string;
+  };
+}
+
+interface OverviewPage {
+  titel: string;
+  product: {
+    id: string;
+    aanmelddatum: string;
+    beschrijving: string;
+    createdAt: string;
+    categories: Array<{
+      naam: string;
+    }>;
+    giftig: boolean;
+    slug: string;
+    stekken: string;
+    temperatuur: string;
+    verpotten: string;
+    projectnaam: string;
+    voeding: string;
+    watergeven: string;
+    zonlicht: string;
+    onderhoud: string;
+    landvanherkomst: string;
+    naam: string;
+    fotos: Array<{
+      url: string;
+    }>;
+  };
+}
+
+interface MyQueryResponse {
+  heroHeaders: HeroHeader[];
+  overviewPages: OverviewPage[];
+}
+
+// GraphQL query
 const query = gql`
   query MyQuery {
     heroHeaders {
@@ -49,8 +92,8 @@ const query = gql`
 `;
 
 // Fetching the data
-const data = await hygraph.request(query);
-const { heroHeaders, overviewPages } = data;
+const data: MyQueryResponse = await hygraph.request<MyQueryResponse>(query);
+  const { heroHeaders, overviewPages } = data;
 ---
 <BaseLayout>
         

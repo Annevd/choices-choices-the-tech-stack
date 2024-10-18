@@ -45,6 +45,8 @@ Tijdens het bouwen hiervan heb ik verschillende documentatie gelezen van Astro o
 - [Imports](https://docs.astro.build/en/guides/imports/)
 - [Routing](https://docs.astro.build/en/guides/routing/)
 - [Endpoints](https://docs.astro.build/en/guides/endpoints/)
+- [Data fetching](https://docs.astro.build/en/guides/data-fetching/)
+- [Connect a CMS](https://docs.astro.build/en/guides/cms/hygraph/)
 - [Styling](https://docs.astro.build/en/guides/styling/)
 
 ### Commits
