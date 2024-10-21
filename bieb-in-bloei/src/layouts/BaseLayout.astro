@@ -2,16 +2,18 @@
 import '../styles/global.css';
 import Menu from '../components/organisms/Menu.astro'
 import AccessibilityMenu from '../components/organisms/AccessibilityMenu.astro';
+import { ViewTransitions } from 'astro:transitions';
 ---
-<html lang="en">
+<html lang="en" transition:animate="none">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="/BiebInBloei-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <title>Bieb in Bloei</title>
+    <ViewTransitions />
   </head>
-  <body>
+  <body transition:animate="slide">
     <Menu />
     <AccessibilityMenu/>
     <slot /> <!-- Content of each page will go here -->
