@@ -2,13 +2,13 @@
 > Gekozen tech-stack: Astro met Hygraph en Netlify
 
 ## Inhoudsopgave
-- [Analyseren](https://github.com/Annevd/choices-choices-the-tech-stack/edit/main/README.md#-analyseren)
-- [Ontwerpen](https://github.com/Annevd/choices-choices-the-tech-stack/edit/main/README.md#%EF%B8%8F-ontwerpen)
-- [Bouwen](https://github.com/Annevd/choices-choices-the-tech-stack/edit/main/README.md#%EF%B8%8F-bouwen)
-- [Integreren](https://github.com/Annevd/choices-choices-the-tech-stack/edit/main/README.md#-integreren)
-- [Testen](https://github.com/Annevd/choices-choices-the-tech-stack/edit/main/README.md#-testen)
-- [Conclusie](https://github.com/Annevd/choices-choices-the-tech-stack/edit/main/README.md#-conclusie)
-- [Bronnen](https://github.com/Annevd/choices-choices-the-tech-stack/edit/main/README.md#%E2%84%B9%EF%B8%8F-bronnen)
+- [Analyseren](https://github.com/Annevd/choices-choices-the-tech-stack/blob/main/README.md#-analyseren)
+- [Ontwerpen](https://github.com/Annevd/choices-choices-the-tech-stack/blob/main/README.md#%EF%B8%8F-ontwerpen)
+- [Bouwen](https://github.com/Annevd/choices-choices-the-tech-stack/blob/main/README.md#%EF%B8%8F-bouwen)
+- [Integreren](https://github.com/Annevd/choices-choices-the-tech-stack/blob/main/README.md#-integreren)
+- [Testen](https://github.com/Annevd/choices-choices-the-tech-stack/blob/main/README.md#-testen)
+- [Conclusie](https://github.com/Annevd/choices-choices-the-tech-stack/blob/main/README.md#-conclusie)
+- [Bronnen](https://github.com/Annevd/choices-choices-the-tech-stack/blob/main/README.md#%E2%84%B9%EF%B8%8F-bronnen)
 
 ## ⭐ Epic
 
