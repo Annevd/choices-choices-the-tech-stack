@@ -52,6 +52,8 @@ Tijdens het bouwen hiervan heb ik verschillende documentatie gelezen van Astro o
 ### Commits
 - [Astro setup](https://github.com/Annevd/choices-choices-the-tech-stack/commit/3bae780196c8690fa3fb3aa53a19032b1244a8cd)
 - [Components & data & Layouts](https://github.com/Annevd/choices-choices-the-tech-stack/commit/d583592e3542f3ce77b11eec1a21d531a626bb98)
+- [Accessibility Menu](https://github.com/Annevd/choices-choices-the-tech-stack/commit/330da98e68d8fa902fe929a38d19e38d5e8cba08)
+- [Basic View transition](https://github.com/Annevd/choices-choices-the-tech-stack/commit/5365b9ed2a2e13640e1435bdcd35d2ffda8c519e)
 
 ### Issues 
 - [Astro installatie & project opzet](https://github.com/Annevd/choices-choices-the-tech-stack/issues/1)
@@ -60,6 +62,8 @@ Tijdens het bouwen hiervan heb ik verschillende documentatie gelezen van Astro o
 - [Werken met componenten](https://github.com/Annevd/choices-choices-the-tech-stack/issues/5)
 - [Werken met layouts](https://github.com/Annevd/choices-choices-the-tech-stack/issues/7)
 - [Styling met Astro](https://github.com/Annevd/choices-choices-the-tech-stack/issues/9)
+- [Accessibility menu toevoegen](https://github.com/Annevd/choices-choices-the-tech-stack/issues/10)
+- [View transition maken in Astro](https://github.com/Annevd/choices-choices-the-tech-stack/issues/12)
 
 ## Integreren
 
