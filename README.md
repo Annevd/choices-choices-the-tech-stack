@@ -82,11 +82,14 @@ Ik heb mijn website getest op verschillende categoriën: UX, DX en CMX.
 
 ## 🏁 Conclusie
 
-Astro biedt een hele goede DX (developer experience) door de focus op performance en usability. Je kunt er snel mee aan de slag door de simpele projectopzet en het ondersteund diverse frameworks zoals React, Vue en Svelte. De documentatie is uitgebreid en heeft handige tutorials waardoor je makkelijk kunt leren en problemen kunt oplossen. De herbruikbare componenten en de mogelijkheid om je data rechtstreeks in de frontmatter op te halen dragen bij aan de efficiëntie van het ontwikkelproces.
+In conclusie, hoewel er enkele nadelen zijn, zoals de TypeScript-foutmeldingen en de enige kennis om GraphQL te begrijpen, wegen de voordelen van Astro, Hygraph en Netlify zwaarder. Je kun snel met Astro aan de slag door de simpele projectopzet en het ondersteund diverse frameworks zoals React, Vue en Svelte. De documentatie is uitgebreid en heeft handige tutorials waardoor je makkelijk kunt leren en problemen kunt oplossen. De herbruikbare componenten en de mogelijkheid om je data rechtstreeks in de frontmatter op te halen dragen bij aan de efficiëntie van het ontwikkelproces.
+
+De flexibiliteit, snelheid en gebruiksvriendelijkheid van Hygraph maken deze combinatie een sterke keuze voor het bouwen van moderne websites. Zowel technische als niet-technische gebruikers kunnen samenwerken, wat de efficiëntie en het succes van projecten bevordert.
 
 De ingebouwde TypeScript-foutmeldingen kunnen soms wel vervelend zijn voor iedereen die liever met standaard Javascript werkt. Bovendien is het integreren van een headless CMS zoals Hygraph wat complexer en zul je je in GraphQL moeten verdiepen.
 
-Al met al biedt Astro dus een sterke DX voor developers, maar moet je met sommige dingen zoals TypeScript en CMS-integraties rekening houden.
+Al met al bieden Astro en Hygraph dus een sterke basis voor developers, maar moet je met sommige dingen zoals TypeScript en CMS-integraties rekening houden.
+
 
 ## ℹ️ Bronnen
 - [Astro](https://astro.build/)
